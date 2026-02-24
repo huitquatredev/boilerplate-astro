@@ -1,4 +1,4 @@
-# Pragma
+# Boilerplate
 
 A modern, high-performance website built with [Astro](https://astro.build), [Storyblok](https://storyblok.com) headless CMS, and [Tailwind CSS](https://tailwindcss.com). Deployed on [Vercel](https://vercel.com) with full SEO optimization.
 
