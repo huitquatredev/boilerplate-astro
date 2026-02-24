@@ -1,0 +1,25 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+.astro
+
+# Cache
+.astro/.cache
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Minified files
+*.min.js
+*.min.css
+
+# Vercel
+.vercel
+
+# IDE
+.vscode
+.idea

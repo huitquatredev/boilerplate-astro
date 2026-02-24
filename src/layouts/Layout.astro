@@ -1,0 +1,33 @@
+---
+import Head from './Head.astro';
+import SkipLink from './SkipLink.astro';
+import '../styles/global.css';
+
+interface Props {
+  seo?: object;
+}
+
+const { seo } = Astro.props;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <Head {seo} />
+  </head>
+  <body>
+    <SkipLink />
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="bg-gray-900 py-12 text-white">
+      <div class="container mx-auto px-4">
+        <p>
+          &copy; {new Date().getFullYear()} Pragma. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
